@@ -1,0 +1,9 @@
+version: '3'
+services:
+  python:
+    image: 63dbdece5a08
+    #tty: true
+    #volumes:
+    #- /Users/mac/development/Docker-projects/docker-compose/usr/new_project/spiders:/usr
+    command: sh
+    #docker-compose run --rm python
